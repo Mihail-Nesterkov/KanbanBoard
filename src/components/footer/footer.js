@@ -16,7 +16,7 @@ const Footer = (props) => {
       <p className='footerTxt footterActiveTask' key={'footterActiveTask'}>Active tasks: {active}</p>
       <p className='footerTxt' key={'footerTxt'}>Finished tasks: {finish} </p>
       </div>
-      <p className='footerTxt' key={'footerTxtName'}>Kanban board by NAME, YEAR</p>
+      <p className='footerTxt' key={'footerTxtName'}>Kanban board by Nesterkov Mihail, 2023</p>
     </div>
   )
   }
