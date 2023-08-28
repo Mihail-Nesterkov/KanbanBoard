@@ -1,0 +1,167 @@
+.blockTask{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 0 17px;
+    background-color: #0079BF;
+    min-height: 600px;
+}
+.resBut {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@media screen and (max-width: 380px){
+    .blockTask{
+        grid-template-rows: repeat(4, 25%);
+        grid-template-columns: none;
+    }
+}
+.columnTask{
+    background-color: #EBECF0;
+    margin-right: 24px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 12px 12px 8px 12px;
+    height: fit-content;
+    z-index: 2;
+}
+.task{
+    background-color: white;
+    padding: 7px 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.statusTask{
+    font-size: 18px;
+}
+.titleTask{
+    font-family: 'Roboto', sans-serif;
+}
+.addCard{
+    padding: 4px 5px;
+    margin-top: 17px;
+    font-size: 18px;
+    background-color: #EBECF0;
+    color: #5e6c84;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 920px){
+    .addCard{
+        font-size: 12px;
+    }
+    .statusTask{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 695px){
+    .addCard{
+        font-size: 8px;
+    }
+    .statusTask{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 435px){
+    .addCard{
+        font-size: 6px;
+    }
+    .statusTask{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 380px){
+    .addCard{
+        font-size: 18px;
+    }
+    .statusTask{
+        font-size: 18px;
+    }
+}
+.addCard:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.addCardSub{
+    padding: 4px 8px;
+    margin-top: 17px;
+    font-size: 18px;
+    background-color: #EBECF0;
+    color: #5e6c84;
+    border: none;
+    border-radius: 5px;
+}
+.addCardSub:hover{
+    color: white;
+    background-color: #0079BF;
+    cursor: pointer;
+}
+.newTask{
+    width: 93%;
+    margin-top: 17px;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 5px;
+}
+.disrip{
+    padding: 22px 28px;
+    background-color: white;
+    min-height: 600px;
+}
+.discript_fon{
+    padding: 10px;
+    background-color: #0079BF;
+    min-height: 600px;
+}
+.edit_title{
+    display: flex;
+    justify-content: space-between;
+}
+.titel{
+    font-size: 24px;
+}
+.inputDiscrip{
+    width: 100%;
+    min-height: 300px;
+    border: none;
+    background-color: white;
+}
+.icon{
+    font-size: 32px;
+    margin-left: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067A3;
+    padding: 17px 19px 17px 21px;
+}
+@media screen and (max-width: 380px){
+    .footer{
+        display: none;
+    }
+}
+.footerTask{
+    display: flex;
+}
+.footerTxt{
+    font-size: 18px;
+    color: #ffffff;
+}
+@media screen and (max-width: 580px){
+    .footerTxt{
+        font-size: 10px;
+    }
+}
+.footterActiveTask{
+    margin-right: 36px;
+}
+.taskValue{
+    text-decoration: none;
+    color: black;
+
+}
